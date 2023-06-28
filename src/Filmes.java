@@ -2,9 +2,13 @@ public class Filmes {
     String nome;
     int anoDeLancamento;
     Boolean incluidoNoPlano;
-    double somaDasAvaliacao;
+    private double somaDasAvaliacao;
     int totalDeAvaliacoes;
     int duracaoEmMinutos;
+
+    int getTotalDeAvaliacoes(){
+        return totalDeAvaliacoes;
+    }
 
     void exibiFichaTecnica() {
         System.out.println("nome do filme" + nome);// acesso o atributo
@@ -14,8 +18,9 @@ public class Filmes {
         somaDasAvaliacao += nota;
         totalDeAvaliacoes++;
     }
-
     double pegaMedia(){
         return somaDasAvaliacao / totalDeAvaliacoes;
     }
+
+    
 }
