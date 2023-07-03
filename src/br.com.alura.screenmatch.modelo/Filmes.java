@@ -1,24 +1,25 @@
+package br.com.alura.screenmatch.medelo;
 public class Filmes {
-    String nome;
+    public String nome;
     int anoDeLancamento;
     Boolean incluidoNoPlano;
     private double somaDasAvaliacao;
     int totalDeAvaliacoes;
     int duracaoEmMinutos;
 
-    int getTotalDeAvaliacoes(){
+    public int getTotalDeAvaliacoes(){
         return totalDeAvaliacoes;
     }
 
-    void exibiFichaTecnica() {
+    public void exibiFichaTecnica() {
         System.out.println("nome do filme" + nome);// acesso o atributo
     }
 
-    void avalia(double nota) {
+    public void avalia(double nota) {
         somaDasAvaliacao += nota;
         totalDeAvaliacoes++;
     }
-    double pegaMedia(){
+    public double pegaMedia(){
         return somaDasAvaliacao / totalDeAvaliacoes;
     }
 

@@ -1,3 +1,5 @@
+import br.com.alura.screenmatch.medelo.Filmes;
+
 public class Principal {
     public static void main(String[] args) {
         Filmes meuFilme = new Filmes();
