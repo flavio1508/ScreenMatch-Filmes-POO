@@ -1,4 +1,4 @@
-import br.com.alura.screenmatch.medelo.Filmes;
+import br.com.alura.screenmatch.modelo.Filmes;
 
 public class Principal {
     public static void main(String[] args) {
