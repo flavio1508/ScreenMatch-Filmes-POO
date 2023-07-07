@@ -3,11 +3,11 @@ import br.com.alura.screenmatch.modelo.Filmes;
 public class Principal {
     public static void main(String[] args) {
         Filmes meuFilme = new Filmes();
-        meuFilme.nome = "Homem de ferro";
-        meuFilme.anoDeLancamento = 2008;
-        meuFilme.duracaoEmMinutos = 180;
+        meuFilme.setNome( "Homem de ferro");
+        meuFilme.setAnoDeLancamento(  2008);
+        meuFilme.setDuracaoEmMinutos( 180);
 
-        meuFilme.exibiFichaTecnica();
+        meuFilme.exibeFichaTecnica();
         meuFilme.avalia(8);
         meuFilme.avalia(5);
         meuFilme.avalia(10);
