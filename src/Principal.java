@@ -1,4 +1,5 @@
 import br.com.alura.screenmatch.modelo.Filmes;
+import br.com.alura.screenmatch.modelo.Serie;
 
 public class Principal {
     public static void main(String[] args) {
@@ -19,5 +20,8 @@ public class Principal {
         // meuFilme.somaDasAvaliacao = 10;
         // meuFilme.totalDeAvaliacoes = 1;
         // System.out.println(meuFilme.pegaMedia());
+
+        Serie maquinaMortifera = new Serie();
+        maquinaMortifera.setNome("Maquina Mortifera");
     }
 }
